@@ -67,17 +67,17 @@ Key objectives:
 
 | File | Description |
 |------|--------------|
-| `data/IT_Tickets_Analysis12.xlsx` | Clean dataset with pivot tables and base metrics |
-| `documentation/subjective_and_objective_questions.docx` | Detailed report covering objective and subjective analysis |
-| `presentation/IT_Ticket_Analysis.pptx` | Executive summary and visual presentation |
-| `images/dashboard_overview.png` | Snapshot of the final Excel dashboard |
-| `README.md` | Project overview and recruiter summary |
+| <a href="https://github.com/Rohith0789/IT-Ticket-Analysis/blob/main/IT_Ticket_Analysis_Project/Data/IT%20Tickets%20Analysis12.xlsx">`data/IT_Tickets_Analysis12.xlsx` | Clean dataset with pivot tables and base metrics |
+| <a href="https://github.com/Rohith0789/IT-Ticket-Analysis/blob/main/IT_Ticket_Analysis_Project/Documentation/subjective%20and%20objective%20question.docx">`documentation/subjective_and_objective_questions.docx` | Detailed report covering objective and subjective analysis |
+| <a href="https://github.com/Rohith0789/IT-Ticket-Analysis/blob/main/IT_Ticket_Analysis_Project/Presentation/IT_Ticket_Analysis.pptx">`presentation/IT_Ticket_Analysis.pptx` | Executive summary and visual presentation |
+| <a href="https://github.com/Rohith0789/IT-Ticket-Analysis/blob/main/IT_Ticket_Analysis_Project/images/Dashboard_overview.png">`images/dashboard_overview.png` | Snapshot of the final Excel dashboard |
+| <a href="https://github.com/Rohith0789/IT-Ticket-Analysis/blob/main/README.md">`README.md` | Project overview and recruiter summary |
 
 ---
 
 ## 📊 Dashboard Snapshot
 
-![Dashboard Overview](/images/dashboard_overview.png)
+<a href="https://github.com/Rohith0789/IT-Ticket-Analysis/blob/main/IT_Ticket_Analysis_Project/images/Dashboard_overview.png">
 
 > The dashboard visualizes monthly ticket volumes, resolution times, satisfaction scores, and agent-level performance metrics.  
 > It provides quick insights into workload distribution, seasonal patterns, and efficiency trends.
