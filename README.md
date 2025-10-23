@@ -76,8 +76,7 @@ Key objectives:
 ---
 
 ## 📊 Dashboard Snapshot
-
-<a href="https://github.com/Rohith0789/IT-Ticket-Analysis/blob/main/IT_Ticket_Analysis_Project/images/Dashboard_overview.png">
+![Dashboard Overview](https://github.com/Rohith0789/IT-Ticket-Analysis/blob/main/IT_Ticket_Analysis_Project/images/Dashboard_overview.png)
 
 > The dashboard visualizes monthly ticket volumes, resolution times, satisfaction scores, and agent-level performance metrics.  
 > It provides quick insights into workload distribution, seasonal patterns, and efficiency trends.
