@@ -1,102 +1,113 @@
-# 🧾 IT Ticket Analysis Project
+# 💼 IT Ticket Analysis – Data-Driven Performance Insights
 
-**Tools Used:** Excel, Pivot Tables, Charts, Correlation Analysis, Data Cleaning  
 
----
-
-## 📊 Project Overview
-This project analyzes **97,000+ IT support tickets** collected over five years (2016–2020) to evaluate workload patterns, agent performance, and system efficiency.  
-The goal is to help management make data-driven decisions regarding **hiring, training, and software improvements** in the IT support department.
+**Goal:** Analyze IT support ticket data to uncover performance bottlenecks, improve resolution speed, and boost employee satisfaction.  
+**Tools Used:** Excel (Pivot Tables, Charts, Correlation Analysis), Data Cleaning, Visualization, Analytical Reporting  
 
 ---
 
-## 📂 Dataset Details
-- **Records:** 97,498  
-- **Attributes:** 15 columns  
-- **Key Fields:**  
-  - Agent ID  
-  - Request Category  
-  - Severity  
-  - Priority  
-  - Resolution Time  
-  - Satisfaction Rate  
-- **Source:** Internal IT Ticket Management Data  
+## 🧩 Problem Statement
+The IT support department handles thousands of tickets annually, but management lacks clear visibility into agent performance, resolution efficiency, and employee satisfaction.  
+This project aims to analyze the **IT support ticket management system** to:
+- Evaluate **individual and team performance** of IT agents  
+- Measure **efficiency of ticket resolution** and **employee satisfaction trends**  
+- Identify **high and low performers** among agents  
+- Pinpoint **operational bottlenecks** and areas for process improvement  
+
+The ultimate goal is to support **data-driven staffing decisions** — including **hiring, training, or performance management** — to enhance overall service quality and productivity.
 
 ---
 
-## 🧹 Data Cleaning
-Data preprocessing and standardization steps included:
-- Fixed spelling inconsistencies in the **Severity** column (e.g., “Mayor” → “Major”).  
-- Standardized **Agent Names** (removed extra punctuation, duplicates).  
-- Checked for missing/blank values — none found, ensuring dataset completeness.  
+## 📘 Project Overview
+This project involves a comprehensive analysis of **97,000+ IT support tickets** recorded between 2016 and 2020.  
+It examines patterns in ticket volumes, agent workload, issue severity, and satisfaction scores to help management make **evidence-based process and personnel improvements**.
 
-The dataset was finalized as clean and ready for analysis using **Excel Pivot Tables** and **Charts**.
-
----
-
-## 📈 Key Insights
-- **Average Resolution Time:** 4.5 days  
-- **Employee Satisfaction:** 4.1 / 5  
-- **Main Bottlenecks:** Hardware & System tickets  
-- **Fastest Resolutions:** Login issues (resolved within 0.3 days)  
-- **Peak Workload:** August–December (highest ticket volume)  
-- **Underperforming Agents:** Six identified with low satisfaction scores and high resolution times  
+Key objectives:
+- Track how ticket volume and resolution time vary over time  
+- Identify performance gaps between agents  
+- Measure the impact of new tools on efficiency and satisfaction  
 
 ---
 
-## 💡 Recommendations
-1. **Training:**  
-   Targeted upskilling for underperforming agents to improve resolution efficiency and satisfaction.
+## 🧾 Dataset Summary
+- **Records:** 97,498 tickets  
+- **Time Frame:** 2016–2020  
+- **Key Columns:** Agent ID, Category, Priority, Severity, Resolution Time, Satisfaction Rate, Phase (Before/After Tool)  
+- **Data Source:** Internal IT Ticket Management System  
 
-2. **Automation:**  
-   Automate repetitive requests (e.g., login resets, software installs) to free up time for complex tickets.
-
-3. **AI-Driven Ticketing:**  
-   Implement auto-triaging and prioritization to ensure urgent issues are resolved promptly.
-
-4. **Seasonal Staffing:**  
-   Deploy temporary or contract agents during high-volume months (Aug–Dec).
+**Data Preparation:**
+- Fixed spelling and case inconsistencies in severity categories  
+- Standardized agent names to prevent duplicates  
+- Verified missing values — none found (dataset 100% complete)  
 
 ---
 
-## 📁 Project Files
+## 📈 Analytical Insights
+| Insight | Observation | Impact |
+|----------|--------------|---------|
+| ⏱ Average Resolution Time | **4.5 days** overall | Stable but not improving year over year |
+| 😊 Satisfaction Rate | **4.1 / 5** | Dips during high workload months |
+| 🧰 Category Performance | Hardware (7.6 days) and System (6.6 days) slowest | Major bottlenecks |
+| 👨‍💻 Agent Performance | 6 underperformers identified (high resolution time, low CSAT) | Need focused training |
+| 📆 Ticket Volume Trend | Steady growth, peaks Aug–Dec | Seasonal workload pressure |
+| ⚙️ Tool Efficiency | New software shows minimal improvement | Reconfiguration needed |
+
+---
+
+## 💡 Key Recommendations
+- **Upskill underperforming agents** through structured training and mentoring  
+- **Automate repetitive requests** (e.g., login resets, simple software installs)  
+- **Implement AI-driven ticket routing** to auto-prioritize critical issues  
+- **Deploy seasonal or contract staff** during high-volume months (Aug–Dec)  
+- **Reconfigure ticketing software** to align severity and priority automatically  
+
+---
+
+## 📁 Deliverables
 
 | File | Description |
 |------|--------------|
-| `data/IT_Tickets_Analysis12.xlsx` | Clean dataset used for pivot table and chart analysis |
-| `documentation/subjective_and_objective_questions.docx` | Report with objective & subjective analysis, including insights and recommendations |
-| `presentation/IT_Ticket_Analysis.pptx` | Summary presentation prepared for management review |
+| `data/IT_Tickets_Analysis12.xlsx` | Clean dataset with pivot tables and base metrics |
+| `documentation/subjective_and_objective_questions.docx` | Detailed report covering objective and subjective analysis |
+| `presentation/IT_Ticket_Analysis.pptx` | Executive summary and visual presentation |
+| `images/dashboard_overview.png` | Snapshot of the final Excel dashboard |
+| `README.md` | Project overview and recruiter summary |
 
 ---
 
-## 📸 Dashboard Preview
-Here’s a snapshot of the Excel dashboard summarizing ticket trends, resolution times, and agent performance metrics:
+## 📊 Dashboard Snapshot
 
-![Dashboard Overview](images/dashboard_overview.png)
+![Dashboard Overview](/images/dashboard_overview.png)
 
----
-
-## 🔍 Insights Summary
-- **Resolution times** remain stable (~4.5 days) but have plateaued over time.  
-- **Satisfaction** remains stagnant at ~4.1, dipping during high workload months.  
-- **Hardware and System tickets** cause the longest delays.  
-- **Six agents** consistently underperform, needing targeted improvement plans.  
-- **AI-based ticket triaging** and **seasonal staffing** can reduce overload and boost satisfaction.
+> The dashboard visualizes monthly ticket volumes, resolution times, satisfaction scores, and agent-level performance metrics.  
+> It provides quick insights into workload distribution, seasonal patterns, and efficiency trends.
 
 ---
 
-## 🧠 Key Takeaway
-The IT support system demonstrates **stability but stagnation**.  
-By investing in automation, smarter ticket management, and staff training, the organization can reduce resolution time, improve satisfaction, and achieve sustainable operational excellence.
+## 🔍 Summary of Findings
+- The IT team’s **resolution speed has plateaued** (~4.5 days).  
+- **Satisfaction remains steady** but shows dips during heavy workloads.  
+- **Hardware and System categories** are major contributors to delays.  
+- **Targeted training** and **better triaging tools** can significantly improve outcomes.  
+- **Automation + Data Intelligence** will enable faster responses and scalable service delivery.
 
 ---
 
-## 🏁 Future Enhancements
-- Build an **interactive dashboard** using Power BI or Tableau for real-time insights.  
-- Use **Python or Pandas** for automated KPI tracking.  
-- Integrate **AI-based prioritization models** for predictive ticket routing.
+## 🚀 Business Impact
+This analysis provides the IT management team with:
+- A **data-backed strategy** to optimize workforce utilization  
+- Actionable insights to improve **service quality and satisfaction**  
+- Clear KPIs for **performance evaluation and decision-making**  
 
 ---
 
-## 📬 Contact
-For queries or collaboration opportunities, connect with **Salaar** via GitHub or LinkedIn.
+## 🧭 Future Enhancements
+- Develop a **Power BI / Tableau dashboard** for live tracking  
+- Use **Python (Pandas, Matplotlib)** for automated analytics and trend forecasting  
+- Build a **machine learning model** to predict ticket resolution times based on issue type and severity  
+
+---
+
+
+⭐ *This project demonstrates my ability to clean, analyze, and communicate data-driven insights clearly and professionally — a key skill for data-driven roles in top tech companies.*
+
